@@ -1,8 +1,2 @@
-/*header and nav*/
-.header{
-    position: fixed;
-    width: 100%;
-    top: 0;
-    background-color: transparent;
-    z-index: var(--z-fixed);
-}
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap");
+
