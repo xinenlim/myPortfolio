@@ -1,0 +1,8 @@
+/*header and nav*/
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: transparent;
+    z-index: var(--z-fixed);
+}
