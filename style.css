@@ -255,10 +255,8 @@ section{
     gap: 1rem;
 }
 
-/*About*/
-#about{
-    position: relative;
-}
+/*Experience*/
+
 
 .about-containers{
     gap: 2rem;
@@ -277,15 +275,6 @@ section{
     display: flex;
 }
 
-.about-pic {
-    border-radius: 2rem;
-}
-
-.arrow{
-    position: absolute;
-    right: -5rem;
-    bottom: 2.5rem;
-}
 
 .details-container{
     padding: 1.5rem;
@@ -297,18 +286,7 @@ section{
     text-align: center;
 }
 
-.section-container{
-    gap: 4rem;
-    height: 80%;
-}
 
-.section_pic-container{
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
-}
-
-/*Experience*/
 #experience{
     position: relative;
 }
@@ -346,10 +324,11 @@ article .icon{
     cursor: default;
 }
 
+
 /*Projects*/
 
 #projects {
-    position: relative;
+    margin-top: 170px;
 }
 
 .color-container{
@@ -373,6 +352,9 @@ article .icon{
     border-color: rgb(163, 163, 163);
 }
 
+.experience-sub-title{
+    font-size: 23px;
+}
 /*contact*/
 #contact{
     display: flex;
