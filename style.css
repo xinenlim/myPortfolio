@@ -303,6 +303,9 @@ section{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    width: 1000px;
+    margin-left: 100px;
+    flex-wrap: wrap;
 }
 
 .article-container {
@@ -310,14 +313,16 @@ section{
     text-align: initial;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 2.5rem;
-    justify-content: space-around;
+    gap: 2rem;
+    justify-content: space-between;
+
+
 }
 
 article{
     display: flex;
     width: 10rem;
-    justify-content: space-around;
+    /*justify-content: space-between;*/
     gap: 0.5rem;
 }
 
@@ -330,6 +335,21 @@ article .icon{
 
 #projects {
     margin-top: 170px;
+}
+
+.article-container2 {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-around;
+}
+
+.experience-details-container2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .color-container{
