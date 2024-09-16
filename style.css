@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: #ffefef;
 }
 
 body{
@@ -279,7 +280,7 @@ section{
 .details-container{
     padding: 1.5rem;
     flex: 1;
-    background: white;
+    background: #ffefef;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
@@ -333,13 +334,19 @@ article .icon{
 
 .color-container{
     border-color: rgb(163, 163, 163);
-    background: rgb(250, 250, 250);
+    background: #ffefef;
 }
 
 .project-img{
     border-radius: 2rem;
     width: 90%;
     height: 90%;
+}
+
+.project2-img{
+    border-radius: 1rem;
+    width: 50%;
+    height: 50%;
 }
 
 .project-title{
@@ -361,6 +368,7 @@ article .icon{
     justify-content: center;
     flex-direction:column;
     height: 70vh;
+    margin-top: 70px;
 }
 
 .contact-info-upper-container{
@@ -369,7 +377,7 @@ article .icon{
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
-    background:(250, 250, 250);
+    /*background:(250, 250, 250);*/
     margin: 2rem auto;
     padding: 0.5rem; 
 }
